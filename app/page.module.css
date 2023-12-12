@@ -1,12 +1,79 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
-
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sub_heading {
+  max-width: 100%;
+  line-height: 160%;
+  font-size: 16px;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.error {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.row {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.row p {
+  width: 200px;
+  font-weight: bold;
+}
+.col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.back_link {
+  font-size: 22px;
+  color: rgb(65, 65, 247);
+  text-align: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.input {
+  width: 300px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: 0.5px solid gainsboro;
+}
+.btn {
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  background-color: rgb(111, 111, 249, 0.9);
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(111, 111, 249);
+}
+.btn:disabled {
+  cursor: not-allowed;
+  background-color: rgb(111, 111, 249, 0.3);
+}
 .description {
   display: inherit;
   justify-content: inherit;
